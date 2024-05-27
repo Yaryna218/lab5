@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кольорові квадрати</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+    <div id="header">Pixel hunt</div>
+    <div id="menu"></div>
+    <div id="gameArea"></div>
+    <div id="controls">
+        <label for="difficultySelect">Складність:</label>
+        <select id="difficultySelect">
+            <option value="">Оберіть складність</option>
+            <option value="easy">Легко</option>
+            <option value="medium">Середньо</option>
+            <option value="hard">Важко</option>
+        </select>
+        <label for="colorSelect">Колір:</label>
+        <select id="colorSelect">
+            <option value="">Оберіть колір</option>
+            <option value="red">Червоний</option>
+            <option value="blue">Синій</option>
+            <option value="green">Зелений</option>
+        </select>
+        <button id="startBtn">Старт</button>
+        <div id="timeLeftDisplay"></div>
+        <div id="scoreDisplay"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
